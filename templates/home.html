@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myBlog</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to myBlog!!</h1>
+        <nav class='navbar'>
+            <li class="nav-items"><a href="#" class="nav-links">Catalog</a></li>
+            <li class="nav-items"><a href="#" class="nav-links">Login</a></li>
+            <li class="nav-items"><a href="#" class="nav-links">Profile</a></li>
+            <li class="nav-items"><a href="#" class="nav-links">Create</a></li>
+        </nav>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock content%}
+    </div>
+</body>
+</html>
