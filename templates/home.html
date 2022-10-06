@@ -18,6 +18,9 @@
     </header>
     <div class="container">
         {% block content %}
+            {% for i  in article %}
+                <h3>{{ i.title }}</h3>
+            {% endfor %}
         {% endblock content%}
     </div>
 </body>

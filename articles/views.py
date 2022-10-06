@@ -7,6 +7,7 @@ from .models import Article
 
 
 def home(request):
-    context = {}
+    article = Article.objects.first()
+    context = {'article': article}
     
     return render(request, 'home.html', context=context)
