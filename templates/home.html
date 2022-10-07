@@ -18,9 +18,11 @@
     </header>
     <div class="container">
         {% block content %}
-            {% for i  in article %}
-                <h3>{{ i.title }}</h3>
+        <div class="title-list">
+            {% for article in articles %}
+            <li class="titles">{{ article.fields.title }}</li>
             {% endfor %}
+        </div>
         {% endblock content%}
     </div>
 </body>
