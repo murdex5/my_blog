@@ -20,7 +20,7 @@
         {% block content %}
         <div class="title-list">
             {% for article in articles %}
-            <li class="titles">{{ article.fields.title }}</li>
+            <li class="titles"><a >{{ article.fields.title }}</a></li>
             {% endfor %}
         </div>
         {% endblock content%}

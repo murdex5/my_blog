@@ -14,3 +14,17 @@ def home(request):
     }
     
     return render(request, 'home.html', context=context)
+
+
+def article(request, pk):
+    pk = Article.objects.get(id=pk)
+    name = Article.title()
+    body = Article.body()
+    author = Article.author()
+    
+    context = {
+        'name': name,
+        'body': body,
+        'author': author,
+    }
+    return render(request, 'article-view.html', context=context)
