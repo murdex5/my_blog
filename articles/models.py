@@ -18,3 +18,13 @@ class Article(models.Model):
     
     def __str__(self):
         return self.title
+    
+    
+class Reader(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.IntegerField(default=5)
+    email = models.EmailField()
+    date_created = models.DateTimeField(default=datetime.now())
+    
+    def __str__(self):
+        return self.name
