@@ -1,24 +1,17 @@
 {
-  "name": "my_blog",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/murdex5/my_blog#readme",
-  "bugs": {
-    "url": "https://github.com/murdex5/my_blog/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/murdex5/my_blog.git"
-  },
-  "license": "ISC",
-  "author": "malshapraboth",
+  "name": "",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.3.8"
   }
 }

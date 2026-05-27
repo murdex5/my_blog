@@ -1,3 +1,3 @@
-# my_blog
+#my_blog
 
-my blog is made with react and some express for simple backend
+My blog where I document my programming journey
