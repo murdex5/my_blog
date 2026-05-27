@@ -1,3 +1,3 @@
 # my_blog
 
-My Blog is a django project where i make a backend for users to write their blogs.
+my blog is made with react and some express for simple backend

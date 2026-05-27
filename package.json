@@ -1,0 +1,20 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/murdex5/my_blog#readme",
+  "bugs": {
+    "url": "https://github.com/murdex5/my_blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murdex5/my_blog.git"
+  },
+  "license": "ISC",
+  "author": "malshapraboth",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
